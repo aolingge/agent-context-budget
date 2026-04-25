@@ -36,6 +36,8 @@
     "README.zh-CN.md",
     "LICENSE",
     "docs",
-    "examples"
+    "examples",
+    "CODE_OF_CONDUCT.md"
   ]
 }
+
