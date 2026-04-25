@@ -1,0 +1,13 @@
+# Agent Context Summary
+
+Purpose: compact instructions for AI agent context.
+
+Summary: read this first, then README.
+
+Commands: npm test and npm run build.
+
+Boundary: do not load private logs or secrets.
+
+# Realistic extension
+
+This fixture is safe to share and contains no real secrets.

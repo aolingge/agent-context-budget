@@ -1,6 +1,6 @@
 {
   "name": "agent-context-budget",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Estimate whether repo instructions, prompts, and docs are small enough for AI coding agents to load.",
   "type": "module",
   "bin": {
@@ -28,5 +28,12 @@
   "bugs": {
     "url": "https://github.com/aolingge/agent-context-budget/issues"
   },
-  "homepage": "https://github.com/aolingge/agent-context-budget"
+  "homepage": "https://github.com/aolingge/agent-context-budget",
+  "files": [
+    "src",
+    "fixtures",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ]
 }
