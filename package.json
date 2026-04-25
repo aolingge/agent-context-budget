@@ -1,0 +1,32 @@
+{
+  "name": "agent-context-budget",
+  "version": "0.1.0",
+  "description": "Estimate whether repo instructions, prompts, and docs are small enough for AI coding agents to load.",
+  "type": "module",
+  "bin": {
+    "agent-context-budget": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node src/cli.js --path fixtures/good.txt --min-score 75"
+  },
+  "keywords": [
+    "ai-agent",
+    "context-window",
+    "codex",
+    "claude-code",
+    "cursor",
+    "developer-tools",
+    "cli"
+  ],
+  "author": "Aolingge",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aolingge/agent-context-budget.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aolingge/agent-context-budget/issues"
+  },
+  "homepage": "https://github.com/aolingge/agent-context-budget"
+}
